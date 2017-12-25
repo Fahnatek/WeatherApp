@@ -72,7 +72,7 @@ def main():
         print("\n")
 
 if __name__ == "__main__":
-    version = "1.1.1"
+    version = "1.1.2"
     print("Version Number: ", version)
     main()
 
