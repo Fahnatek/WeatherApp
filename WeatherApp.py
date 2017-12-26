@@ -53,9 +53,6 @@ def getWeather(Data):
     else:
         windchill = "None"
 
-
-
-
     main = Data["weather"][0]["main"]
     mainDes = Data["weather"][0]["description"]
 
@@ -68,7 +65,6 @@ def printWeather(location, temp, curMain, mainDes, windSpeed, windChill):
     print(curMain + ": " + mainDes)
     print("Wind Speed: ", windSpeed, "mph")
     
-
 
 def main():
     import datetime
@@ -88,7 +84,7 @@ def main():
 
 
 if __name__ == "__main__":
-    version = "1.2.0"
+    version = "1.2.1"
     print("Version Number: ", version)
     main()
 
