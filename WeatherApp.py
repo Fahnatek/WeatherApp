@@ -85,7 +85,7 @@ def getWindSpeed(Data):
 
 
 def getWindDirection(Data):
-    """Returns in which way the wind is blowing"""
+    """Returns which way the wind is blowing"""
 
     deg = Data["wind"]["deg"]
 
